@@ -9,5 +9,6 @@ Gem::Specification.new do |gem|
   gem.name          = 'oauth2-motion'
   gem.require_paths = ['lib']
   gem.version       = File.read('VERSION').delete('\n\r')
+
   gem.add_runtime_dependency 'bubble-wrap-http'
 end
